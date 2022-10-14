@@ -6,9 +6,10 @@ A web scraping project to extract data online about the planet, Mars.
 
 The project aims to help a junior data scientist write a Python script that would gather all the information she searches into one convenient location. Once gathered, she wants to show it off to other astrophiles. The tasks that need attention are listed below:
 - Use HTML elements and CSS styles with class and id attributes, to identify content for web scraping.
-- Use BeautifulSoup and Splinter to automate a web browser and perform a web scrape.
+- Use BeautifulSoup and Splinter to automate a web browser and perform a web scrape:
+  - Retrieve Mars data along with full-resolution Mars hemisphere images and titles.
 - Create a MongoDB database to store data from the web scrape.
-- Create a web application with Flask to display the data from the web scrape.
+- Create a web application with Flask to display the data along with Mars hemisphere images from the web scrape.
 - Use Bootstrap components to polish and customize the web page.
 
 ## Resources
@@ -26,6 +27,7 @@ The project aims to help a junior data scientist write a Python script that woul
 - Flask 2.2.3
 - Flask-PyMongo-2.3.0
 - Html5lib-1.1
+- Bootstrap 3
 
 ## Results
 
