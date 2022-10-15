@@ -30,7 +30,19 @@ The project aims to help a junior data scientist write a Python script that woul
 - Bootstrap 3
 
 ## Results
+- To automate the browser and perform web scrape, BeautifulSoup and Splinter are used. The news, facts, space and hemisphere images about Mars are scraped from different sites and are stored in MongoDB. The code to perform web scrape and database storage is stored in a python script. Below is the example of data retrieved.
+<img src="Resources/hemisphere_scrape.png" width="400"/>
 
+- A web application with Flask is created to display the data. 
+<img src="Resources/hemisphere_img.png" width="400"/>
 
-## Summary
+- Bootstrap 3 classes are added to make the web page mobile-responsive.
 
+<table>
+  <tr>
+    <td><img src="Resources/bootstr_1.png" width="400"/></td>
+    <td><img src="Resources/bootstr_2.png" width="400"/></td>
+  </tr>
+</table>
+- More Bootstrap classes are added to customize the look and feel of the web page as shown below:
+<img src="Resources/bootstr_3.png" width="400"/>
