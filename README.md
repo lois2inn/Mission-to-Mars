@@ -36,17 +36,24 @@ The project aims to help a junior data scientist write a Python script that woul
 - A web application with Flask is created to display the data. 
 <img src="Resources/hemisphere_img.png" width="600"/>
 
-- Bootstrap 3 classes are added to make the web page mobile-responsive. The col-xs family of classes are added.
+- Bootstrap 3 classes are added to make the web page mobile-responsive as below:
 
 <table>
   <tr>
-    <td><img src="Resources/bootstr_1.png" width="400"/></td>
-    <td><img src="Resources/bootstr_2.png" width="400"/></td>
+    <td><img src="Resources/responsive.png" width="600"/></td>
   </tr>
 </table>
 
 - More Bootstrap classes are added to customize the look and feel of the web page as shown below:
-  - The background color of page header is changed to match the Mars theme of colors.
-  - The button under page header has "btn-default" and "active" classes added.
-  - The style of Mars Facts table is changed to striped pattern.
-<img src="Resources/bootstr_3.png" width="600"/>
+  - The Mars hemisphere images are styled with class: "img-thumbnail".
+  - The Mars Facts table shows striped pattern with class: "table-striped".
+  - The button under page header has "btn-default" and "active" classes added. The background color of page header is changed to match the Mars theme of colors.
+<table>
+  <tr>
+    <td colspan="2" align="center"><img src="Resources/bootstr_4.png"/></td>
+  </tr>
+  <tr>
+    <td><img src="Resources/bootstr_5.png" width="400"/></td>
+    <td><img src="Resources/bootstr_3.png" width="600"/></td>
+  </tr>
+</table>
